@@ -1,0 +1,203 @@
+body {
+  background-color: #ffffdd;
+  margin: 0;
+  text-align: center;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+h1 {
+  margin: auto;
+  line-height: 2;
+}
+
+h2 {}
+
+h3 {}
+
+a {
+  color: #fca652;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 0;
+  padding-top: 10px;
+  color: #444;
+}
+
+hr {
+  margin: 100px auto;
+  border-style: dotted none none;
+  height: 2px;
+  width: 7%;
+  border-width: 10px;
+  border-color: #697c37;
+}
+
+.top-container {
+  background-color: #ffd57e;
+}
+
+.greeting-container {
+  padding-top: 20px;
+}
+
+.greeting-container h1 {
+  font-size: 3.125rem;
+  color: #7ea04d;
+}
+
+.greeting-container p {
+  font-size: 1.875rem;
+  color: #333;
+  padding: 15px;
+  margin: 0;
+  display: inline-block;
+  width: 50%;
+}
+
+.skills-container {}
+
+.skills-container h2 {
+  margin: 0;
+  padding: 20px;
+  font-size: 3.125rem;
+  color: #71a95a;
+}
+
+.skills-container h3 {
+  font-size: 1.875rem;
+  color: #697c37;
+  margin: 0;
+  /*float: left;*/
+}
+
+.skills-container p {
+  /*float: left;*/
+}
+
+.skill-row {
+  /*display: inline-block;*/
+  width: 50%;
+  height: 200px;
+  margin: 40px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.coding-img {
+  border-radius: 50% 50% 50% 50%;
+  width: 30%;
+  float: left;
+  margin: 0 30px 0 0;
+  position: relative;
+  bottom: 30px;
+}
+
+.tennis-img {
+  border-radius: 50% 50% 50% 50%;
+  width: 30%;
+  float: right;
+  margin: 0 0 0 30px;
+}
+
+.contact-me-container {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-me-container h1 {
+  color: #71a95a;
+}
+
+.contact-me-container h3 {
+  color: #649d66;
+}
+
+.contact-me-btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 2.8rem;
+  background-color: #71A95A;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  outline: 0;
+}
+
+.contact-me-btn:hover {
+  background: #FFFFFF;
+  color: #71A95A;
+  border: solid #71A95A 2px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.footer {
+  height: 150px;
+  background-color: #649d66;
+  font-size: 20px;
+}
+
+.footer-link {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 30px;
+  color: #555;
+  position: relative;
+  top: 40px;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.footer p {
+  color: #fff;
+  position: relative;
+  top: 50px;
+}
+
+.license {
+  display: none;
+}
+
+#showcase {
+  width: 45%;
+  height: 45%;
+}
+
+#header {
+  position: relative;
+  top: 50px;
+  font-size: 4.6875rem;
+  color: #697c37;
+  font-family: 'Delius Swash Caps', cursive;
+}
+
+#bio {
+  position: relative;
+  top: 40px;
+  margin-bottom: 15px;
+  font-size: 1.875rem;
+  color: #697c37;
+  font-weight: normal;
+}
+
+#portfolio-img {
+  background-size: cover;
+  border-radius: 50% 50% 50% 50%;
+  width: 20%;
+  margin: 1rem;
+}
