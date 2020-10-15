@@ -10,10 +10,6 @@ h1 {
   line-height: 2;
 }
 
-h2 {}
-
-h3 {}
-
 a {
   color: #fca652;
 }
@@ -56,8 +52,6 @@ hr {
   width: 50%;
 }
 
-.skills-container {}
-
 .skills-container h2 {
   margin: 0;
   padding: 20px;
@@ -69,10 +63,6 @@ hr {
   font-size: 1.875rem;
   color: #697c37;
   margin: 0;
-  /*float: left;*/
-}
-
-.skills-container p {
   /*float: left;*/
 }
 
@@ -131,6 +121,7 @@ hr {
   cursor: pointer;
   text-align: center;
   outline: 0;
+  border: 2px solid transparent;
 }
 
 .contact-me-btn:hover {
