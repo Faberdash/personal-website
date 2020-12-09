@@ -30,10 +30,32 @@ hr {
   border-color: #697c37;
 }
 
+/* Top Container Section */
 .top-container {
   background-color: #ffd57e;
 }
 
+#header {
+  padding-top: 50px;
+  font-size: 4.6875rem;
+  color: #697c37;
+  font-family: 'Delius Swash Caps', cursive;
+}
+
+#bio {
+  padding: 0;
+  font-size: 1.875rem;
+  color: #697c37;
+  font-weight: normal;
+}
+
+#showcase {
+  width: 45%;
+  height: 45%;
+  margin-top: 15px;
+}
+
+/* Greeting Container Section */
 .greeting-container {
   padding-top: 20px;
 }
@@ -52,6 +74,14 @@ hr {
   width: 50%;
 }
 
+#portfolio-img {
+  background-size: cover;
+  border-radius: 50% 50% 50% 50%;
+  width: 20%;
+  margin: 1rem;
+}
+
+/* Skills Section */
 .skills-container h2 {
   margin: 0;
   padding: 20px;
@@ -67,10 +97,9 @@ hr {
 }
 
 .skill-row {
-  /*display: inline-block;*/
   width: 50%;
   height: 200px;
-  margin: 40px auto;
+  margin: 70px auto;
   text-align: left;
   line-height: 1.5;
 }
@@ -80,8 +109,10 @@ hr {
   width: 30%;
   float: left;
   margin: 0 30px 0 0;
-  position: relative;
-  bottom: 30px;
+}
+
+.development-skill-bio {
+  padding-top: 25px;
 }
 
 .tennis-img {
@@ -91,6 +122,7 @@ hr {
   margin: 0 0 0 30px;
 }
 
+/* Contact Me Section */
 .contact-me-container {
   width: 50%;
   margin: auto;
@@ -134,6 +166,7 @@ hr {
   text-decoration: none;
 }
 
+/* Footer Section */
 .footer {
   height: 150px;
   background-color: #649d66;
@@ -162,33 +195,4 @@ hr {
 
 .license {
   display: none;
-}
-
-#showcase {
-  width: 45%;
-  height: 45%;
-}
-
-#header {
-  position: relative;
-  top: 50px;
-  font-size: 4.6875rem;
-  color: #697c37;
-  font-family: 'Delius Swash Caps', cursive;
-}
-
-#bio {
-  position: relative;
-  top: 40px;
-  margin-bottom: 15px;
-  font-size: 1.875rem;
-  color: #697c37;
-  font-weight: normal;
-}
-
-#portfolio-img {
-  background-size: cover;
-  border-radius: 50% 50% 50% 50%;
-  width: 20%;
-  margin: 1rem;
 }
