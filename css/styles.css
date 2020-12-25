@@ -99,7 +99,7 @@ hr {
 .skill-row {
   width: 50%;
   height: 200px;
-  margin: 70px auto;
+  margin: 80px auto;
   text-align: left;
   line-height: 1.5;
 }
@@ -195,4 +195,11 @@ hr {
 
 .license {
   display: none;
+}
+
+/* Changes in website style on screens of size 600px or smaller (Mobile) */
+@media (max-width: 600px) {
+  .skill-row {
+    margin: 80px auto 130px;
+  }
 }
