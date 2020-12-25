@@ -35,6 +35,10 @@ hr {
   background-color: #ffd57e;
 }
 
+.license {
+  display: none;
+}
+
 #header {
   padding-top: 50px;
   font-size: 4.6875rem;
@@ -193,13 +197,52 @@ hr {
   top: 50px;
 }
 
-.license {
-  display: none;
-}
-
-/* Changes in website style on screens of size 600px or smaller (Mobile) */
+/* Changes in website style on screens of size 600px or smaller (Tablet) */
 @media (max-width: 600px) {
   .skill-row {
     margin: 80px auto 130px;
+  }
+}
+
+/* Changes in website style on screens of size 400px or smaller (Mobile) */
+@media (max-width: 400px) {
+  #header {
+    font-size: 3.125rem;
+  }
+
+  #bio {
+    font-size: 1.5625rem;
+  }
+
+  #showcase {
+    width: 60%;
+    height: 60%;
+  }
+
+  #portfolio-img {
+    width: 40%;
+  }
+
+  .greeting-container p {
+    width: 60%;
+  }
+
+  .skill-row {
+    margin: 80px auto 130px;
+  }
+
+  .contact-me-container {
+    width: 55%;
+  }
+
+  .footer {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .footer-link {
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
   }
 }
